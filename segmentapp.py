@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 import pandas as pd 
 
-kmeans_model = joblib.load("C:\projects\CustomerSeg\models\Kmeans_model.pkl")
-kmeans_scaler = joblib.load("C:\projects\CustomerSeg\models\scaler.pkl")
+kmeans_model = joblib.load("models/Kmeans_model.pkl")
+kmeans_scaler = joblib.load("models/scaler.pkl")
 
 
 
